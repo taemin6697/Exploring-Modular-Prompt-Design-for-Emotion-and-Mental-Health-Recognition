@@ -4,6 +4,8 @@
 
 This project explores modular prompt design for emotion and mental health recognition. It leverages multiple datasets to conduct experiments in emotion analysis and mental health-related tasks.
 
+[[Paper link]](http://arxiv.org/abs/2305.17216)
+
 ---
 
 ## 1. Prerequisites
