@@ -4,7 +4,6 @@ from prompt_generator import Prompt_Generator
 from gpt import load_model, BaseModel
 import random
 from multiprocessing import Pool
-
 import os
 
 
@@ -32,7 +31,7 @@ def gen(args, model_name, output_dir):
             if 'subject' in dataset and s < len(dataset['subject']):
                 subject = dataset['subject'][s]
             else:
-                subject = None  # subject가 없는 경우 None 할당
+                subject = None
 
             shot = prompter(
                 shot_memory='',
@@ -76,7 +75,7 @@ def gen(args, model_name, output_dir):
         if 'subject' in dataset and count < len(dataset['subject']):
             subject = dataset['subject'][count]
         else:
-            subject = None  # subject가 없는 경우 None 할당
+            subject = None
 
         query = prompter(
             shot_memory=shot_memory,
