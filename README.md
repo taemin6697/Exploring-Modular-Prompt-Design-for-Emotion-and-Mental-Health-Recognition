@@ -96,6 +96,7 @@ pip install transformers
 pip install huggingface-hub
 pip install torch torchaudio torchvision
 pip install scikit-learn
+pip install pillow
 ```
 
 ## 5. Citation
