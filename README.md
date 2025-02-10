@@ -86,8 +86,19 @@ To evaluate the results, run the script `generation/eval/eval_calssification.py`
 - On **line 266**, update the script with the appropriate dataset name.
 - On **line 124**, provide the models in a list format.
 
+## 5. Requirements
+```
+pip install ollama
+pip install anthropic
+pip install openai
+pip install accelerate
+pip install transformers
+pip install huggingface-hub
+pip install torch torchaudio torchvision
+pip install scikit-learn
+```
 
-## 4. Citation
+## 5. Citation
 
 If you find this work or our code useful, please consider citing:
 
